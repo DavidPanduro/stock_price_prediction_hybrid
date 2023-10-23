@@ -45,8 +45,11 @@ A nossa simulação consiste em fazer a previsão dos proximos 70 passos (poco m
 O melhor cenário corresponde a um erro de 2.68 e o gráfico ficou como segue:<br><br>
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/96bf8e63-0434-48a8-a4b8-e112678d9678)<br><br>
 
-PREVISÃO MULTILAYER PERCEPTRON (MLP):<br>
+PREVISÃO COM MULTILAYER PERCEPTRON (MLP):<br>
+Também conhecido como rede neural feedforward, é um tipo de rede neural artificial que consiste em múltiplas camadas de neurônios, ou unidades de processamento, dispostas em camadas interconectadas.<br>
+Consiste em três tipos principais de camadas de neurônios: a camada de entrada, uma ou mais camadas ocultas e a camada de saída.<br><br>
 
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/0acf0ec2-63e4-4d83-bed8-8d1f772d518c)<br><br>
 
 
 
