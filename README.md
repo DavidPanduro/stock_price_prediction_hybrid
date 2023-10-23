@@ -30,4 +30,7 @@ No estudo, consideramos dados de movimentações da Bolsa Brasileira, no períod
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/f794f9ed-efc7-4644-bf78-5a6ca1f6849e)<br>
 Para o estudo utilizaremos o preço das ações no Fechamento diário.<br><br>
 
+DISTRIBUIÇÂO DOS DADOS:<br>
+A distribuição dos dados no periodo mostra seus picos de frequência mais altos ente o 40 e 60 de valor de fechamento.<br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/ab337980-e599-4c9e-b211-4f29e4b358f9)<br><br>
 
