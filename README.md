@@ -72,7 +72,7 @@ As previsões resultaram assim: <br>
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/30c3ac19-0bd2-4e47-8d51-0e5a09da8527)<br><br>
 **MSE: 3.11**<br><br>
 
-PREVISÃO DE PREÇOS COM MODELO HÍBRIDO: <BR><BR>
+PREVISÃO DE PREÇOS COM MODELO HÍBRIDO (MLP + LSTM): <BR><BR>
 Modelos de previsão híbridos que combinam Multilayer Perceptrons (MLPs) e Long Short-Term Memory (LSTM) são uma abordagem interessante para combinar o poder de redes neurais profundas com a capacidade das LSTMs de lidar com sequências e informações temporais de longo prazo. Esses modelos híbridos são projetados para aproveitar o melhor de ambos os mundos, ou seja, a capacidade de aprendizado profundo e a capacidade de modelar dependências temporais complexas.<br><br>
 Podemos mencionar alguns beneficios do modelo híbrido:<br>
 * Modelos híbridos podem ser mais eficazes do que apenas MLPs ou apenas LSTMs em tarefas que exigem tanto aprendizado profundo quanto modelagem de sequências temporais.
@@ -81,12 +81,23 @@ Podemos mencionar alguns beneficios do modelo híbrido:<br>
 * São versáteis e podem ser aplicados a várias tarefas, incluindo previsão de séries temporais, classificação de texto e muito mais.
 * A combinação de MLPs e LSTMs é especialmente útil quando você tem dados que têm tanto informações tabulares (ou seja, características estáticas) quanto informações sequenciais (ou seja, informações temporais).
 
+No nosso caso, criamos os modelos com as camadas e função de ativação , e a continuação fazemos a combinação dos modelos:<br><br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/8fb45802-72ad-444d-81a3-14e48c01f72f)<br><br>
 
+Depois de fazermos as previsções, obtemos o seguinte resultado:<br><br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/e310cda3-b692-4a2e-80f9-16bfee4d02c3)<br><br>
+**MSE: 3.10**<br><br>
 
+Ao mesmo tempo, damos um **ajuste nos hyperparametros do modelo Híbrido**, que básicamente consistiu em acrescentar as camadas LSTM e MLP:<br><br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/404b05ad-bac7-4641-8337-46cbff7707eb)<br>
+Basicamente, a combinação do LSTM e MLP permite que o modelo utilize as características de curto prazo e longo prazo do seu conjunto de dados para fazer previsões mais precisas. O LSTM é bom para capturar dependências temporais de curto e longo prazo, enquanto o MLP pode aprender representações complexas e não lineares dos dados. A camada de achatamento é necessária para fazer a transição da saída 3D do LSTM para a camada de saída densa.<br><br>
+Cabe mencionar que devemos prestar muita atenção ao acrescentar as camadas e as épocas no treinamento, para não acabarmos Overfittando o modelo.
+<br><br>
 
-
-
-
+Depois desses ajustes conseguimos os seguinte resultado:<br><br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/38fbc769-faa4-4fd5-96f7-9e38606cf62f)<br><br>
+**MSE: 2.20**<br><br>
+Perceba-se que conseguimos um melhor resultado com o Modelo Híbrido Hyperparametrizado.
 
 
 
