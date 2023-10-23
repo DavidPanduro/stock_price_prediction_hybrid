@@ -72,7 +72,14 @@ As previsões resultaram assim: <br>
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/30c3ac19-0bd2-4e47-8d51-0e5a09da8527)<br><br>
 **MSE: 3.11**<br><br>
 
-
+PREVISÃO DE PREÇOS COM MODELO HÍBRIDO: <BR><BR>
+Modelos de previsão híbridos que combinam Multilayer Perceptrons (MLPs) e Long Short-Term Memory (LSTM) são uma abordagem interessante para combinar o poder de redes neurais profundas com a capacidade das LSTMs de lidar com sequências e informações temporais de longo prazo. Esses modelos híbridos são projetados para aproveitar o melhor de ambos os mundos, ou seja, a capacidade de aprendizado profundo e a capacidade de modelar dependências temporais complexas.<br><br>
+Podemos mencionar alguns beneficios do modelo híbrido:<br>
+* Modelos híbridos podem ser mais eficazes do que apenas MLPs ou apenas LSTMs em tarefas que exigem tanto aprendizado profundo quanto modelagem de sequências temporais.
+* Eles podem aprender a partir de dados brutos, o que significa que não é necessário fazer muita engenharia de recursos manual.
+* Permitem que a rede neural aprenda automaticamente a importância das características e sequências temporais.
+* São versáteis e podem ser aplicados a várias tarefas, incluindo previsão de séries temporais, classificação de texto e muito mais.
+* A combinação de MLPs e LSTMs é especialmente útil quando você tem dados que têm tanto informações tabulares (ou seja, características estáticas) quanto informações sequenciais (ou seja, informações temporais).
 
 
 
