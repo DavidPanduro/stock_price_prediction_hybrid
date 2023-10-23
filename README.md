@@ -6,7 +6,7 @@ CONTEXTO: <br>
 A Vale é uma empresa mineradora multinacional brasileira. É uma das maiores empresas de mineração do mundo e também a maior produtora de minério de ferro. Podemos definir, de maneira resumida, suas operações em: <br> 
 * Extrai minerio de ferro das minas Brasileiras e a maior parte é importada para China.
 * Metais básicos (níquel, cobre) para transição energética de carros elétricos.<br><br>
-Jáque o mercado dos metais básicos ainda é muito pequeno, então a Vale depende muito do minério de ferro e principalmente do preço de minério de ferrocotado na China.<br>
+Já que o mercado dos metais básicos ainda é muito pequeno, então a Vale depende muito do minério de ferro e principalmente do preço de minério de ferrocotado na China.<br>
 Disclaimer: Exitem básicamente 02 formas de vender aço:<br><br>
     1. Crecimento populacional (+ nascem, - morrem).
     2. Crecimento econômico.<br><br>
