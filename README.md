@@ -34,3 +34,43 @@ DISTRIBUIÇÂO DOS DADOS:<br>
 A distribuição dos dados no periodo mostra seus picos de frequência mais altos ente o 40 e 60 de valor de fechamento.<br>
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/ab337980-e599-4c9e-b211-4f29e4b358f9)<br><br>
 
+No histórico do preço das ações da Vale podemos observar que até o ano 2020 não tinha mostrado um crecimento substancial, e sem embargo, tinha conseguido uma estabilidade interessante.<br>
+No periodo de pandemia, naturalmente apresentou uma queda no valor, mas imediatamente conseguiu se reeguer e mostrou um crecimento exponecial, para depois flutuar entre valores acima de 60 e 100.<br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/ce3a2ea8-0f0a-4581-bd09-8c39d37942cc)<br><br>
+
+SIMULAÇÃO DE MONTE CARLO:<br>
+Como ponto de partida aproveitamos para fazer uma Simulação de Monte Carlo, que pode servir como um baseline para determinar um range de cenários e com os que poderíamos trabalhar caso querramos nos localizar dentro de um melhor cenário e um pior cenário, para a partir disso gerar, definir ou planejar as nossas estrategias.<br>
+A nossa simulação consiste em fazer a previsão dos proximos 70 passos (poco mais de 03 meses da Bolsa) e um range de 30 cenários.<br><br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/b8654c68-37d4-4503-9593-06210302fc48)<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
