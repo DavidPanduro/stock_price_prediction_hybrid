@@ -9,7 +9,7 @@ A Vale é uma empresa mineradora multinacional brasileira. É uma das maiores em
 Jáque o mercado dos metais básicos ainda é muito pequeno, então a Vale depende muito do minério de ferro e principalmente do preço de minério de ferrocotado na China.<br>
 Disclaimer: Exitem básicamente 02 formas de vender aço:<br><br>
     1. Crecimento populacional (+ nascem, - morrem).
-    2. Crecimento econômico.
+    2. Crecimento econômico.<br><br>
 En contrapartida, a China tem mostrado Desacelaração no crecimento econômico e a taxa de natalidade vem caindo.<br>
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/b0f6f461-0827-4f29-b300-a0c8783102ba)<br><br>
 Agora, consideraremos a rentabilidade da Vale3 (investindo R$. 100)<br><br>
