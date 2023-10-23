@@ -99,10 +99,24 @@ Depois desses ajustes conseguimos os seguinte resultado:<br><br>
 **MSE: 2.20**<br><br>
 Perceba-se que conseguimos um melhor resultado com o Modelo Híbrido Hyperparametrizado.
 
+<br><br>
+BACKTESTE:<br>
+Tenatamos fazer a previsão dos próximos 77 passos (dias úteis da Bolsa de Balores Brasileira), obtendo os seguintes resultados:<br>
+<br>
+
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/6f9ed779-8a52-4a5c-bf2f-40a53b54a68b)<br>
+<br>
+
+CONCLUSÂO: <br>
+Ainda conseguindo um bom resultado MSE no modelo com os dados de teste, ele não parece estar fazendo uma boa previsão ante as mudanças de conceito no comportamento real dos dados, mas sim parece estar seguindo a tendencia introducida pela última sequencia (últimos 20 dias considerados) e a partir daí identificando as previsões como tendencia negativa.
+<br><br>
+
+PRÓXIMOS PASSOS: <br>
+Resultaria muito interessante considerar algumas outras características, próprias de mudança de conceito, como o caso de cenários de risco sistemático.<br>
 
 
-
-
+<br><br>
+<br><br><br><br>
 
 
 
