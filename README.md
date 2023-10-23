@@ -42,6 +42,10 @@ SIMULAÇÃO DE MONTE CARLO:<br>
 Como ponto de partida aproveitamos para fazer uma Simulação de Monte Carlo, que pode servir como um baseline para determinar um range de cenários e com os que poderíamos trabalhar caso querramos nos localizar dentro de um melhor cenário e um pior cenário, para a partir disso gerar, definir ou planejar as nossas estrategias.<br>
 A nossa simulação consiste em fazer a previsão dos proximos 70 passos (poco mais de 03 meses da Bolsa) e um range de 30 cenários.<br><br>
 ![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/b8654c68-37d4-4503-9593-06210302fc48)<br><br>
+O melhor cenário corresponde a um erro de 2.68 e o gráfico ficou como segue:<br><br>
+![image](https://github.com/DavidPanduro/stock_price_prediction/assets/45201867/96bf8e63-0434-48a8-a4b8-e112678d9678)<br><br>
+
+PREVISÃO MULTILAYER PERCEPTRON (MLP):<br>
 
 
 
